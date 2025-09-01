@@ -6,28 +6,21 @@ const projectsData = [
     title: "Currency Converter",
     description:
       "A web application that allows users to convert currencies in real-time with support for multiple currencies and live exchange rates.",
-    image: "/src/assets/currencyC.webp",
+    image: "/currencyC.webp",
   },
   {
     id: 2,
     title: "Password Generator",
     description:
       "Implemented a secure password generator with customizable length, character types, and copy-to-clipboard functionality.",
-    image: "/src/assets/passwordGen.webp",
+    image: "/passwordGen.webp",
   },
   {
     id: 3,
     title: "Weather App",
     description:
       "A web application that provides real-time weather updates, forecasts, and location-based temperature with a clean and interactive UI.",
-    image: "/src/assets/WeatherC.webp",
-  },
-  {
-    id: 4,
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio to showcase skills, projects, and achievements with stylish UI/UX.",
-    image: "portfolio.webp",
+    image: "/weatherC.webp",
   },
 ];
 
@@ -80,7 +73,7 @@ export default function Projects() {
             {/* Close Button */}
             <button
               onClick={() => setSelectedProject(null)}
-              className="absolute top-3 right-3 bg-amber-300 hover:bg-gray-700 rounded-full p-2 text-white"
+              className="absolute top-3 right-3 bg-amber-300 hover:bg-gray-700 rounded-full p-2 text-white -rotate-45"
             >
               ✖
             </button>

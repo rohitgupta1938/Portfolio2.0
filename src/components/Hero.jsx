@@ -24,7 +24,7 @@ function Hero()
         className="flex-shrink-0 mb-8 md:mb-0 relative z-10"
       >
         <img
-          src="/src/assets/myphoto.jpeg"
+          src="/myphoto.jpeg"
           alt="Profile"
           className=" -rotate-20 w-48 h-48 md:w-64 md:h-64 object-cover rounded-full shadow-xl border-4 border-amber-300 backdrop-blur-lg"
         />
@@ -67,14 +67,14 @@ function Hero()
           className="flex justify-center absolute top-full mt-2 left-0 w-auto bg-black rounded-xl shadow-lg border border-gray-200 z-50"
         >
           <a
-            href="/src/assets/UpdatedResume.pdf"
+            href="/UpdatedResume.pdf"
             target="_blank"
             className="block px-4 py-2 m-1  hover:border hover:border-emerald-400 hover:text-emerald-400 rounded-xl font-medium hover:bg-emerald-400/20 transition"
           >
             Show Resume
           </a>
           <a
-            href="/src/assets/UpdatedResume.pdf"
+            href="/UpdatedResume.pdf"
             download
             className="block px-4 py-2 m-1 hover:border hover:border-amber-300 hover:text-amber-400 rounded-xl font-medium hover:bg-emerald-400/20 transition"
           >

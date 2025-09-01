@@ -35,7 +35,7 @@ function Profile() {
         >
           <div className="mx-auto">
           <img
-            src="/src/assets/myphoto.jpeg"
+            src="/myphoto.jpeg"
             alt="Profile"
             className="w-40 h-40 md:w-40 md:h-40 object-cover -rotate-20 rounded-full shadow-xl border-4 border-amber-400 backdrop-blur-lg"
           />
