@@ -13,21 +13,22 @@ function About() {
 
       {/* Content Wrapper */}
       <div className="relative max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-16 z-10 justify-center">
-        
+
         {/* Left: Image */}
         <motion.div
           initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="flex-shrink-0"
+          className="flex-shrink-0 mt-6 sm:mt-8 md:mt-12 lg:mt-0"
         >
           <img
             src="/about.webp"
             alt="About Me"
-            className="w-72 h-72 md:w-80 md:h-80 object-cover rounded-2xl shadow-xl border-4 border-amber-300"
+            className="w-48 h-48 sm:w-60 sm:h-60 md:w-72 md:h-72 lg:w-80 lg:h-80 object-cover rounded-2xl shadow-xl border-4 border-amber-300"
           />
         </motion.div>
+
 
         {/* Right: Text */}
         <motion.div
@@ -42,33 +43,21 @@ function About() {
           </h2>
 
           <p className="text-lg text-gray-300 leading-relaxed max-w-2xl">
-            I am a <span className="font-semibold text-amber-300">Frontend Developer </span> 
-            with a strong passion for creating interactive, dynamic, and scalable web applications.  
-            My focus is always on writing clean, efficient, and maintainable code.  
+            I am a <span className="font-semibold text-amber-300">Frontend Developer </span>
+            with a strong passion for creating interactive, dynamic, and scalable web applications.
+            My focus is always on writing clean, efficient, and maintainable code.
           </p>
 
           <p className="text-lg text-gray-300 leading-relaxed max-w-2xl">
-            With expertise in <span className="font-semibold text-amber-300">React, JavaScript, Node.js, and modern UI/UX design</span>, 
-            I strive to build products that not only work flawlessly but also deliver an outstanding user experience.  
+            With expertise in <span className="font-semibold text-amber-300">React, JavaScript, Node.js, and modern UI/UX design</span>,
+            I strive to build products that not only work flawlessly but also deliver an outstanding user experience.
           </p>
 
           <p className="text-lg text-gray-300 leading-relaxed max-w-2xl">
-            I believe in continuous learning, solving complex problems, and bringing ideas to life with creativity and innovation.
+            I believe in Continuous learner of new technologies, strategies and tools to develop whimsical ideas.
           </p>
 
           {/* Skills Badges */}
-          <div className="pt-4 flex flex-wrap gap-3 justify-center md:justify-start">
-            {["React", "JavaScript", "Node.js", "TailwindCSS", "SQL", "Git", "Express JS"].map(
-              (skill) => (
-                <span
-                  key={skill}
-                  className="px-4 py-2 bg-amber-500/10 text-amber-300 rounded-full text-sm font-medium shadow-sm hover:bg-emerald-500/20 transition"
-                >
-                  {skill}
-                </span>
-              )
-            )}
-          </div>
         </motion.div>
       </div>
     </section>

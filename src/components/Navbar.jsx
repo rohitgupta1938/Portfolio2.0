@@ -25,14 +25,14 @@ function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-gray-950/80 backdrop-blur-md border-b border-gray-900 z-50">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <h1 className="text-2xl font-bold text-white">
           <span className="text-amber-300">Rohit Gupta</span>
         </h1>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-8 text-gray-300 font-medium">
+        <ul className="hidden md:flex gap-5 text-gray-300 font-medium">
           {navItems.map((item) => (
             <li key={item.name}>
               <a
