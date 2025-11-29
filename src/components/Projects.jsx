@@ -7,6 +7,7 @@ const projectsData = [
     description:
       "A web application that allows users to convert currencies in real-time with support for multiple currencies and live exchange rates.",
     image: "/currencyC.webp",
+    link: "https://fast-money-converter.netlify.app/",
   },
   {
     id: 2,
@@ -14,13 +15,15 @@ const projectsData = [
     description:
       "Implemented a secure password generator with customizable length, character types, and copy-to-clipboard functionality.",
     image: "/passwordGen.webp",
+    link: "",
   },
   {
     id: 3,
-    title: "Weather App",
+    title: "FlowSync",
     description:
-      "A web application that provides real-time weather updates, forecasts, and location-based temperature with a clean and interactive UI.",
-    image: "/weatherC.webp",
+      "This project is a fully responsive and modern Landing Page built using Next.js, Tailwind CSS, JavaScript and TypeScript The landing page is designed to showcase a product/service with a clean UI, smooth layout, and structured sections that enhance user engagement.",
+    image: "/FlowSync.jpg",
+    link: "https://flow-sync-sage.vercel.app/",
   },
 ];
 
@@ -49,11 +52,12 @@ export default function Projects() {
             onClick={() => setSelectedProject(project)}
             className="bg-gray-900 shadow-lg rounded-2xl overflow-hidden cursor-pointer hover:scale-105 transform transition duration-300 border border-amber-400/20"
           >
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-full h-auto object-contain p-2 rounded-2xl"
-            />
+            <a href={project.link}>
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-auto object-contain p-2 rounded-2xl" />
+            </a>
             <div className="p-4">
               <h3 className="text-xl font-semibold text-amber-300">
                 {project.title}
