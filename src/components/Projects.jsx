@@ -11,19 +11,19 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Password Generator",
-    description:
-      "Implemented a secure password generator with customizable length, character types, and copy-to-clipboard functionality.",
-    image: "/passwordGen.webp",
-    link: "",
-  },
-  {
-    id: 3,
     title: "FlowSync",
     description:
       "This project is a fully responsive and modern Landing Page built using Next.js, Tailwind CSS, JavaScript and TypeScript The landing page is designed to showcase a product/service with a clean UI, smooth layout, and structured sections that enhance user engagement.",
     image: "/FlowSync.jpg",
     link: "https://flow-sync-sage.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Password Generator",
+    description:
+      "Implemented a secure password generator with customizable length, character types, and copy-to-clipboard functionality.",
+    image: "/passwordGen.webp",
+    link: "",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function Projects() {
             onClick={() => setSelectedProject(project)}
             className="bg-gray-900 shadow-lg rounded-2xl overflow-hidden cursor-pointer hover:scale-105 transform transition duration-300 border border-amber-400/20"
           >
-            <a href={project.link}>
+            <a href={project.link} target="_blank">
               <img
                 src={project.image}
                 alt={project.title}
