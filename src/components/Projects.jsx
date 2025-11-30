@@ -23,7 +23,7 @@ const projectsData = [
     description:
       "Implemented a secure password generator with customizable length, character types, and copy-to-clipboard functionality.",
     image: "/passwordGen.webp",
-    link: "",
+    link: "/",
   },
 ];
 
