@@ -21,11 +21,11 @@ export default function Skills() {
     },
     {
       title: "Other",
-      items: ["SQL", "Data Structures", "OOPs"],
+      items: ["SQL", "Data Structures", "OOPs","JWT"],
     },
     {
       title: "Tools",
-      items: ["Git/Github", "Cloudinary", "VS Code", "Hoppscotch"],
+      items: ["Git/Github", "Cloudinary", "VS Code", "Postman"],
     },
   ];
 
