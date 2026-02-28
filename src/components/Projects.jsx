@@ -13,10 +13,9 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Real-Time Video Conferencing Platform | MERN Stack",
-    description:
-      "Built a real-time video conferencing web app using MERN stack with WebRTC and Socket.io. Implemented secure meeting rooms, live audio/video communication, and real-time participant management. Designed a responsive UI for seamless cross-device user experience.",
-    image: "https://t3.ftcdn.net/jpg/17/32/41/16/240_F_1732411679_r0zQO4dt4abksKauUZGXNgFNxljq4afa.jpg",
+    title: "AI-Exam Notes Generator | MERN Stack",
+    description:"An intelligent AI-powered Notes Generator built using the MERN Stack and Google Gemini API. This application allows students to generate structured, exam-focused notes instantly based on topic, class level, and exam type.",
+      image: "Ai_Notes_Generator.png",
     link: "https://github.com/rohitgupta1938/Video-Conferencing-Platform",
   },
   {
