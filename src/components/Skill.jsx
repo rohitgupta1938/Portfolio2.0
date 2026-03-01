@@ -25,7 +25,7 @@ export default function Skills() {
     },
     {
       title: "Tools",
-      items: ["Git/Github", "Cloudinary", "VS Code", "Postman"],
+      items: ["Git/Github", "Cloudinary","Docker", "VS Code", "Postman"],
     },
   ];
 

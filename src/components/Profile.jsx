@@ -32,7 +32,7 @@ function Profile() {
             className="bg-gray-900/60 backdrop-blur-md shadow-xl rounded-2xl p-8 border border-gray-800 flex flex-col items-center lg:items-start"
           >
             <img
-              src="/myphoto.jpeg"
+              src="/myProfile.jpeg"
               alt="Profile"
               className="w-44 h-44 object-cover rounded-full shadow-lg border-4 border-amber-400"
             />
