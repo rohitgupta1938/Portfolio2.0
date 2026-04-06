@@ -4,18 +4,18 @@ import { useState } from "react";
 const projectsData = [
   {
     id: 1,
+    title: "AI-Exam Notes Generator | MERN Stack",
+    description:"An intelligent AI-powered Notes Generator built using the MERN Stack and Google Gemini API. This application allows students to generate structured, exam-focused notes instantly based on topic, class level, and exam type.",
+      image: "Ai_Notes_Generator.png",
+    link: "https://studynotesclient.onrender.com",
+  },
+  {
+    id: 2,
     title: "Wanderlust Listing App",
     description:
       "Built a Full-Stack listing travel app to list, and review destinations with secure user auth and upload",
     image:"wanderlust.png",
       link: "https://wanderlust-bgdj.onrender.com/wanderlust",
-  },
-  {
-    id: 2,
-    title: "AI-Exam Notes Generator | MERN Stack",
-    description:"An intelligent AI-powered Notes Generator built using the MERN Stack and Google Gemini API. This application allows students to generate structured, exam-focused notes instantly based on topic, class level, and exam type.",
-      image: "Ai_Notes_Generator.png",
-    link: "https://github.com/rohitgupta1938/AI-ExamNotesGenerator",
   },
   {
     id: 3,
