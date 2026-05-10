@@ -29,7 +29,7 @@ export default function Contact() {
             7761861278
           </p>
           <p className="text-gray-300 text-sm sm:text-base">
-            rohitgupta1938@gmail.com
+            rohitgupta1938@gmail.com / rohitgupta.fullstack@gmail.com
           </p>
 
           {/* Social Icons */}

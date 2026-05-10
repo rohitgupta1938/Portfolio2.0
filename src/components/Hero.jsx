@@ -1,5 +1,4 @@
 import React from "react";
-// src/components/Hero.jsx
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -52,7 +51,7 @@ function Hero() {
         <div className="mt-6 flex gap-4 justify-center md:justify-start">
           <div className="relative inline-block ">{/* Main button */}</div>
           <a
-            href="./rohit_gupta_resume1.pdf"
+            href="./RohitGupta.pdf"
             target="_blanck"
             className="px-6 py-2  bg-amber-400 text-white rounded-xl font-medium shadow-lg hover:bg-amber-600 transition"
           >

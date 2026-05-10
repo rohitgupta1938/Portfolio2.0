@@ -6,7 +6,7 @@ import {
   User,
   Code2,
   FolderKanban,
-  UserCircle,
+  Briefcase,
   Mail,
   Menu,
   X,
@@ -18,9 +18,9 @@ function Navbar() {
   const navItems = [
     { name: "Home", icon: <Home size={18} />, link: "#home" },
     { name: "About", icon: <User size={18} />, link: "#about" },
+    { name: "Experience", icon: <Briefcase size={18} />, link: "#experience" },
     { name: "Skills", icon: <Code2 size={18} />, link: "#skills" },
     { name: "Projects", icon: <FolderKanban size={18} />, link: "#projects" },
-    { name: "Profile", icon: <UserCircle size={18} />, link: "#profile" },
     { name: "Contact", icon: <Mail size={18} />, link: "#contact" },
   ];
 
