@@ -17,7 +17,7 @@ function Profile() {
 
       {/* Content Grid */}
       <div>
-        <div className="text-4xl md:text-5xl font-bold mb-16 z-10 text-center">
+        <div className="text-4xl md:text-5xl font-bold mb-8 z-10 text-center">
           <span className=" text-amber-300">Experience</span>
         </div>
         {/* Experience Section */}
