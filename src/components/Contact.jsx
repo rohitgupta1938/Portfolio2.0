@@ -49,7 +49,7 @@ export default function Contact() {
           {/* Email */}
           <div className="flex justify-center md:justify-start items-center gap-3 text-gray-300">
             <FaEnvelope className="text-amber-400" />
-            <span>rohitgupta.fullstack@gmail.com</span>
+            <span>rohitgupta1938@gmail.com</span>
           </div>
 
           {/* Social Icons */}
@@ -82,7 +82,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="mailto:rohitgupta.fullstack@gmail.com"
+              href="mailto:rohitgupta1938@gmail.com"
               className="p-3 rounded-full bg-amber-500/20 hover:bg-amber-500/40 transition"
             >
               <FaEnvelope className="text-2xl text-amber-400" />
@@ -113,7 +113,7 @@ export default function Contact() {
           </p>
 
           <a
-            href="mailto:rohitgupta.fullstack@gmail.com"
+            href="mailto:rohitgupta1938@gmail.com"
             className="inline-block mt-6 px-6 py-3 bg-amber-500 hover:bg-amber-600 rounded-lg font-semibold transition"
           >
             Hire Me

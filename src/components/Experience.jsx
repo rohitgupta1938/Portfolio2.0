@@ -34,12 +34,15 @@ function Profile() {
 
           <div className="border-l-4 border-amber-400 pl-5">
             <h4 className="text-xl font-semibold text-white">
-              MERN Stack Intern
+              Full Stack Developer Intern
             </h4>
 
-            <p className="text-amber-300 text-sm mt-1">
+            <div className="text-amber-300 text-sm flex justify-between">
+              <p className=" mt-1">
               Detagenix Pvt. Ltd. | Remote | Currently Working
             </p>
+            <p className="mt-1 pr-5">May 2026 - July 2026</p>
+            </div>
 
             <p className="text-gray-300 mt-4 leading-relaxed">
               Developing and maintaining full-stack web applications using
